@@ -1,0 +1,26 @@
+## Domain Controller Deployment
+
+DC01 was promoted as the first domain controller for a new
+Active Directory forest.
+
+### Domain
+
+corp.rosalietech.local
+
+### Services
+
+DC01 currently provides:
+
+- Active Directory Domain Services
+- DNS
+- Authentication services
+
+### Configuration Decisions
+
+A static IP address of 192.168.10.10 was assigned to the
+domain controller because infrastructure services such as
+DNS and Active Directory should have a predictable network
+address.
+
+DC01 uses itself as its preferred DNS server because DNS is
+integrated with the Active Directory environment.
