@@ -1,0 +1,17 @@
+## Identity and Access Management
+
+Users were organized by department and access was assigned
+using security groups rather than directly assigning
+permissions to individual accounts.
+
+### Security Groups
+
+- GG_IT
+- GG_HR
+- GG_FINANCE
+- GG_SALES
+- GG_OPERATIONS
+
+This design simplifies administration because access can be
+granted or revoked by modifying group membership rather than
+editing individual resources.
