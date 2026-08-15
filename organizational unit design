@@ -1,0 +1,21 @@
+## Organizational Unit Design
+
+Organizational Units were created to separate users,
+computers, servers, and administrative groups.
+
+Department-specific OUs allow policies and administrative
+controls to be applied according to business function.
+
+### OU Structure
+
+Rosalie Technologies
+- Users
+  - IT
+  - Human Resources
+  - Finance
+  - Sales
+  - Operations
+- Computers
+- Servers
+- Groups
+- Disabled Users
