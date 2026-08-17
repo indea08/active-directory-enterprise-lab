@@ -17,7 +17,7 @@ DC01 currently provides:
 
 ### Configuration Decisions
 
-A static IP address of 192.168.10.10 was assigned to the
+A static IP address of 10.0.2.10 was assigned to the
 domain controller because infrastructure services such as
 DNS and Active Directory should have a predictable network
 address.
