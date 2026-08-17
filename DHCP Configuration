@@ -1,0 +1,21 @@
+## DHCP Configuration
+
+DC01 was configured as the DHCP server for the lab network.
+
+### Scope
+
+Network:
+10.0.2.0/24
+
+Address Pool:
+10.0.2.100 - 10.0.2.200
+
+DNS Server:
+10.0.2.10
+
+Domain:
+corp.rosalietech.local
+
+Static addresses below the DHCP pool were reserved for
+infrastructure systems such as domain controllers and
+file servers.
